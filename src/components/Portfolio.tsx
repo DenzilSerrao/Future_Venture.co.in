@@ -13,7 +13,7 @@ const companies: Company[] = [
   {
     name: 'AnaBeauty',
     description: 'Revolutionizing the beauty industry with sustainable, organic products that enhance natural beauty.',
-    logo: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=300&q=80',
+    logo: 'anaBeauty.png',
     website: 'https://anabeauty.co.in',
     bgColor: 'bg-rose-50'
   },

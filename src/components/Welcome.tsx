@@ -1,5 +1,4 @@
-import React from 'react';
-import { Target, Zap, Users } from 'lucide-react';
+// import { Target, Zap, Users } from 'lucide-react';
 
 export function Welcome() {
   return (
