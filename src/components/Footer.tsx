@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
 
 export function Footer() {
@@ -15,8 +14,18 @@ export function Footer() {
                 <a href="mailto:contact@futureventures.com">contact@futureventures.com</a>
               </li>
               <li className="flex items-center">
-                <Phone className="h-5 w-5 mr-2" />
-                <span>+1 (555) 123-4567</span>
+                <div className="items-center space-y-2 mr-4 md:mr-6 border-b border-gray-700 md:border-none pb-4">
+                  <div className="flex items-center">
+                  <Phone className="h-5 w-5 mr-2" />
+                  <h2 className="text-xs md:text-lg font-bold">Contact Us</h2>
+                  </div>
+                  <p className="mt-2 text-xs md:text-sm">ANA-official Contact:</p>
+                  <p className="ml-4 mt-2 text-xs md:text-sm"><a href="tel:+919353802123" className="text-pink-500">+919353802123</a></p>
+                  <p className="mt-2 text-xs md:text-sm">Customer Care:</p>
+                  <p className="ml-4 mt-2 text-xs md:text-sm"><a href="tel:+919673501234" className="text-pink-500">+919673501234</a></p>
+                  <p className="ml-4 mt-2 text-xs md:text-sm"><a href="tel:+919845042730" className="text-pink-500">+919845042730</a></p>
+                  <p className="ml-4 mt-2 text-xs md:text-sm"><a href="tel:+918105915916" className="text-pink-500">+918105915916</a></p>
+                </div>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2" />
